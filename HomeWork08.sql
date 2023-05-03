@@ -110,3 +110,4 @@ RETURNING*;
 DELETE FROM employee
 WHERE length(name)>(select avg(length(name)) from employee)
 RETURNING*;
+
