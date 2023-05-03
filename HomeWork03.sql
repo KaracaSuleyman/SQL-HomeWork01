@@ -9,3 +9,4 @@ WHERE title LIKE "%T%" AND LENGTH(title) >= 4;
 
 SELECT * FROM film
 WHERE title LIKE "C%" AND length > 90 AND rental_rate in (2.99);
+
